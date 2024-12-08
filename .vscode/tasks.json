@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "connection",
+        "type": "shell",
+        "command": "curl http://localhost:9090",
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "presentation": {
+          "echo": false,
+          "reveal": "never",
+          "revealProblems": "never",
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false,
+          "clear": false,
+          "close": false
+        }
+      }
+    ]
+}
